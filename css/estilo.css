@@ -1,0 +1,332 @@
+@font-face {
+  font-family: Rubik;
+  src: url("../assets/fonts/Rubik.ttf") format("truetype"); }
+
+.nvaNav {
+  display: inline-flex;
+  font-size: 20px;
+  color: #BAC5E2;
+  font-family: Rubik;
+  transition: 0.4s; }
+
+.logo--header {
+  grid-area: logo;
+  height: 150px; }
+
+#txtIndex {
+  grid-area: txtIndex; }
+
+nav {
+  grid-area: nav; }
+
+footer {
+  grid-area: footer; }
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;
+  font-size: 40px; }
+
+a {
+  text-decoration: none;
+  color: #BAC5E2;
+  font-family: Rubik; }
+
+.texto--p, .textoNosotros {
+  font-size: 20px;
+  color: black;
+  font-family: Rubik;
+  height: 100%;
+  width: auto;
+  background-color: transparent;
+  z-index: 2; }
+
+.textoNosotros {
+  font-size: 21px;
+  padding-bottom: 10px; }
+
+.titulo {
+  display: flex;
+  font-size: 100px;
+  color: #BAC5E2;
+  font-family: Rubik; }
+
+#tit--ind {
+  color: white !important; }
+
+.flex {
+  display: flex; }
+
+.flex-justify {
+  justify-content: flex-end; }
+
+.flex-center {
+  justify-content: center; }
+
+.flex-around {
+  justify-content: space-around; }
+
+li {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 20px; }
+
+#hd {
+  height: 60px;
+  width: auto;
+  transition: 0.8s; }
+
+#ig {
+  height: 70px;
+  width: auto;
+  transition: 0.8s; }
+
+#wp {
+  height: 60px;
+  width: auto;
+  transition: 0.8s; }
+
+.between {
+  display: flex;
+  justify-content: space-between; }
+
+.arround {
+  display: flex;
+  justify-content: space-arround; }
+
+.evenly {
+  display: flex;
+  justify-content: space-evenly; }
+
+.subtitulo {
+  display: flex;
+  font-size: 70px;
+  color: #BAC5E2;
+  font-family: Rubik; }
+
+.nvaNav {
+  text-decoration: none;
+  color: #BAC5E2;
+  font-family: Rubik;
+  padding: 20px; }
+
+.titulo {
+  display: flex;
+  font-size: 40px;
+  color: #BAC5E2;
+  font-family: Rubik;
+  padding-top: 10px;
+  justify-content: center; }
+.titulo1{
+  display: flex;
+  font-size: 40px;
+  color: #5b74ad;
+  font-family: Rubik;
+  padding-top: 10px;
+  justify-content: center; 
+}
+
+#hd {
+  height: 60px; }
+
+#ig {
+  height: 70px; }
+
+#wp {
+  height: 60px; }
+
+.between {
+  display: flex;
+  justify-content: space-between; }
+
+@keyframes neon {
+  0% {
+    opacity: 100%; }
+  100% {
+    opacity: 0%; } }
+
+.tituloIndex {
+  animation-name: neon;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  color: white;
+  font-family: Rubik;
+  font-size: auto; }
+
+.logo--footer:hover {
+  transform: scale(1.2, 1.2); }
+
+.nvaNav:hover {
+  transform: scale(1.2, 1.2); }
+
+.bg-img {
+  background-image: url(../assets/img/bg2.jpg); }
+
+.pTop {
+  padding-top: 40px; }
+
+.pBottom {
+  padding-bottom: 40px; }
+
+.pLeft {
+  padding-left: 40px; }
+
+.nvaNav {
+  font-size: 20px;
+  color: #BAC5E2 !important; }
+
+#texto--emp {
+  padding: 30px; }
+
+#tit-emp {
+  font-size: 20px;
+  text-align: center; }
+
+.irTop {
+  font-family: Rubik;
+  color: #BAC5E2;
+  font-size: 20px;
+  text-align: end;
+  transition: 0.4s;
+  padding-bottom: 40px; }
+  .irTop:visited {
+    color: grey; }
+
+#top1:hover {
+  font-size: 25px; }
+
+.bg-colortxt {
+  background-color: white; }
+
+.navbar-toggler {
+  background-color: #e6f5f447; }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .img--local {
+    width: 340px;
+    height: auto;
+    padding-bottom: 10px; }
+  .img--local2 {
+    width: 340px;
+    height: auto;
+    padding-bottom: 20px; }
+  footer {
+    padding-top: 20px; }
+  header {
+    padding-bottom: 20px; }
+  .img--empleo {
+    width: 400px;
+    height: auto; }
+  .imgEmpleo {
+    padding-top: 70px; }
+  .formEmpleo {
+    padding-top: 70px; }
+  .img--nosotros {
+    width: 300px;
+    height: 300px; }
+  .tituloIndex {
+    font-size: 200%; }
+  #tit--emp {
+    font-size: 30px; }
+  #tit--ubi {
+    font-size: 30px; }
+  .imgContacto {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px; }
+  .imgFachada {
+    width: 350px;
+    height: 500px;
+    padding-bottom: 30px;
+    padding-top: 40px; } }
+
+@media screen and (min-width: 1024px) {
+  .img--local2 {
+    width: 900px;
+    height: auto;
+    padding-bottom: 20px; }
+  .tituloIndex {
+    font-size: 100px; }
+  .img--empleo {
+    width: 400px;
+    height: 400px; }
+  .img--nosotros {
+    width: 400px;
+    height: 500px; }
+  .imgContacto {
+    width: 480px;
+    height: 372px; }
+  #carouselExampleFade {
+    width: 700px;
+    height: 900px; }
+  .imgFachada {
+    width: 600px;
+    padding-bottom: 30px; }
+  .txtGuemes {
+    width: 600px;
+    height: 200px; }
+  .containerUbicacion {
+    display: flex; } }
+
+.gridPadre {
+  display: grid; }
+  @media screen and (max-width: 768px) {
+    .gridPadre {
+      grid-template-areas: "parrafo"
+ "img"
+ "form";
+      grid-template-columns: 100%;
+      grid-template-rows: 300px 300px 300px; } }
+  @media screen and (min-width: 1023px) {
+    .gridPadre {
+      grid-template-areas: "parrafo img"
+ "form img";
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 200px 300px; } }
+
+.parrafoEmpleo {
+  grid-area: parrafo; }
+
+.imgEmpleo {
+  grid-area: img; }
+
+.formEmpleo {
+  grid-area: form; }
+
+.gridPadreNosotros {
+  display: grid; }
+  @media screen and (max-width: 768px) {
+    .gridPadreNosotros {
+      grid-template-areas: "txt1Nosotros"
+ "txt2Nosotros"
+ "imgNosotros";
+      grid-template-columns: 100%;
+      grid-template-rows: 500px 450px 400px; }
+      .gridPadreNosotros .txt1Nosotros {
+        grid-area: txt1Nosotros;
+        text-align: center;
+        height: 400px; }
+      .gridPadreNosotros .txt2Nosotros {
+        grid-area: txt2Nosotros;
+        text-align: center;
+        height: 400px; } }
+  @media screen and (min-width: 1023px) {
+    .gridPadreNosotros {
+      grid-template-areas: "txt1Nosotros imgNosotros"
+ "txt2Nosotros imgNosotros";
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 350px 350px; }
+      .gridPadreNosotros .txt1Nosotros {
+        grid-area: txt1Nosotros;
+        text-align: center;
+        height: 250px; }
+      .gridPadreNosotros .txt2Nosotros {
+        grid-area: txt2Nosotros;
+        text-align: center;
+        height: 250px; } }
+
+.imgNosotros {
+  grid-area: imgNosotros; }
